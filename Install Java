@@ -1,0 +1,36 @@
+1. Install OpenJDK 11 (including javac):
+
+sudo apt update
+sudo apt install openjdk-11-jdk
+
+2. Verify Java and Javac Installation:
+
+java -version
+javac -version
+
+3. Create and Edit a Java Program:
+
+nano HelloWorld.java
+
+Add the code:
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+Save and exit (Press CTRL + X, then Y, and Enter).
+4. Compile the Java Program:
+
+javac HelloWorld.java
+
+5. Run the Java Program:
+
+java HelloWorld
+
+This will output:
+
+Hello, World!
+
+That's the basic setup and flow to write, compile, and run a Java program on Ubuntu.
